@@ -8,7 +8,7 @@
 
 ```text
 .
-├── code_M132040009/
+├── code/
 │   ├── src/
 │   │   └── code.ipynb        # 包含端到端 (end-to-end) 執行流程的主 Jupyter Notebook
 │   ├── README.md             # 原始的繁體中文執行步驟說明
@@ -52,7 +52,7 @@ https://github.com/user-attachments/assets/dd38fecd-c7d6-41fb-94db-99641bfb7f43
 
 ## 🛠️ 使用方法 (How to Run)
 
-1. 在 **Google Colab** 中開啟 `code_M132040009/src/code.ipynb`。
+1. 在 **Google Colab** 中開啟 `code/src/code.ipynb`。
 2. 掛載您的 Google Drive。
 3. 確保您的 `kaggle.json` API 憑證已放置於 `/content/drive/MyDrive/.kaggle` 目錄下，以便順利下載資料集。
 4. 依序由上而下執行所有的 Notebook 儲存格。
@@ -65,4 +65,4 @@ https://github.com/user-attachments/assets/dd38fecd-c7d6-41fb-94db-99641bfb7f43
 - `pandas` & `numpy` (資料處理)
 - `albumentations` (資料擴增)
 
-完整的套件清單請參閱 `code_M132040009/requirements.txt`。
+完整的套件清單請參閱 `code/requirements.txt`。
